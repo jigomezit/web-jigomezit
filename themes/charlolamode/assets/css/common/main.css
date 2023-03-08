@@ -35,11 +35,16 @@
     margin-inline-end: 12px;
 }
 
+/*size of icons*/
 .social-icons a svg {
-    height: 26px;
-    width: 26px;
+    height: 31px;
+    width: 31px;
 }
 
+/*color of icons*/
+.social-icons a svg:hover {
+    color: #25007a;
+}
 code {
     direction: ltr;
 }

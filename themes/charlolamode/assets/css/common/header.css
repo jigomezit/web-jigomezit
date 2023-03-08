@@ -65,8 +65,14 @@ body:not(.dark) #sun {
     margin-inline-start: var(--gap);
 }
 
+/*size of letters*/
 #menu a {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+/*color effect*/
+#menu a:hover {
+    color: #2d059b;
 }
 
 #menu .active {
