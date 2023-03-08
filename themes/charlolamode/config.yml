@@ -1,5 +1,5 @@
 baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: Juan Ignacio Gomez
+title: charlola.mode
 paginate: 5
 theme: charlolamode
 
@@ -7,15 +7,15 @@ theme: charlolamode
 
 menu:
     main:
-        - name: Contact
-          url: /#/
-          weight: 30
+        #- name: Contact
+        #  url: https://jigomezit.com
+        #  weight: 30
         - name: Resume
           url: https://resume.jigomezit.com
           weight: 20
-        - name: Projects
-          url: /#h/
-          weight: 15
+        #- name: Projects
+        #  url: 
+        #  weight: 15
 
      # - name: Categories
         #   url: /categories/
@@ -27,7 +27,7 @@ menu:
 
 
 params:
-    author: Juan Ignacio Gomez
+    author: Author's Name
 
 
     defaultTheme: auto
