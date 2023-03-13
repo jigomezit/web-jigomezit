@@ -7,12 +7,12 @@ theme: charlolamode
 
 menu:
     main:
-        name: Blog
-        url: https://blog.jigomezit.com
-        weight: 30
-        name: Resume
-        url: https://resume.jigomezit.com
-        weight: 20
+        - name: Blog
+          url: https://blog.jigomezit.com
+          weight: 30
+        - name: Resume
+          url: https://resume.jigomezit.com
+          weight: 30
         #- name: Projects
         #  url: 
         #  weight: 15
