@@ -7,9 +7,9 @@ theme: charlolamode
 
 menu:
     main:
-        #- name: Contact
-        #  url: https://jigomezit.com
-        #  weight: 30
+        name: Blog
+        url: https://blog.jigomezit.com
+        weight: 30
         - name: Resume
           url: https://resume.jigomezit.com
           weight: 20
