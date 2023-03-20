@@ -28,7 +28,7 @@ menu:
 
 params:
     author: Juan Ignacio Gomez
-
+    description: Hi, I'm Juan Ignacio and this is my website!
 
     defaultTheme: auto
     # disableThemeToggle: true
