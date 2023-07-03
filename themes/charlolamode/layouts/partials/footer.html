@@ -1,9 +1,20 @@
 {{- if not (.Param "hideFooter") }}
+
+<script>
+    const counter = document.querySelector(".counter-number");
+async function updateCounter() {
+   let response = await fetch ("https://ixnykrwq63slstvci7tu6fieri0ozxif.lambda-url.us-east-1.on.aws/");
+   let data = await response.json();
+   counter.innerHTML = ` Views: ${data}`;
+}
+
+    updateCounter();
+</script>
 <footer class="footer">
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
     {{- else }}
-    <span> built with ♥ from jigomezit
+    <span> built with ♥ from jigomezit </span> | <span class="counter-number"></span></p>
     {{- end }}
       <!--
     <div><span> <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a> </span></div>
