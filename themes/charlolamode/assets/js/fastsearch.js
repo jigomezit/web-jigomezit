@@ -145,3 +145,11 @@ document.onkeydown = function (e) {
         ae.click(); // click on active link
     }
 }
+
+const counter = document.querySelector(".counter-number");
+async function updateCounter() {
+   let response = await fetch ("https://ixnykrwq63slstvci7tu6fieri0ozxif.lambda-url.us-east-1.on.aws/");
+   let data = await response.json();
+   counter.innerHTML = ` Views: ${data}`;
+}
+    updateCounter();
